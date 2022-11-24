@@ -1,0 +1,18 @@
+/* Barra de navegacion */
+.navbar{
+  padding: 2rem;
+  background-color: #f5f6f7;
+}
+
+.navbar-collapse {
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ADAPTABLE (RESPONSIVE) */
+/* MEDIA QUERY */
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
